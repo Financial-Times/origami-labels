@@ -51,3 +51,10 @@ Change the `description` property for the label you wish to update.
 ### Changing a label colour
 
 Add the new color value to the `colors` object. Change the `color` property for the label you wish to update.
+
+
+## Development
+
+If your changes are not breaking, feel free to push them to the `v1` branch, and they'll be picked up by every repo running `v1`.
+
+If your changes ARE breaking, then you should create a `v2` branch and update your chosen repo to use the new workflow.
