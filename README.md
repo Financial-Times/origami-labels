@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Sync repository labels
     steps:
-      - uses: Financial-Times/origami-labels@master
+      - uses: Financial-Times/origami-labels@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -29,7 +29,7 @@ jobs:
 You can do this by running the following command from a repo:
 
 ```bash
-mkdir -p .github/workflows && curl https://raw.githubusercontent.com/Financial-Times/origami-labels/master/.github/workflows/sync-repo-labels.yml --output .github/workflows/sync-repo-labels.yml
+mkdir -p .github/workflows && curl https://raw.githubusercontent.com/Financial-Times/origami-labels/v1/example.yml --output .github/workflows/sync-repo-labels.yml
 ```
 
 
