@@ -17,7 +17,7 @@ const colors = {
 // Types of Origami project
 const origamiTypes = [
 	'cli',
-	'components', // Yes, I know it's not a type... yet
+	'component', // Yes, I know it's not a type... yet
 	'config',
 	'example',
 	'imageset',
