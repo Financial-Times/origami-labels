@@ -1,0 +1,13 @@
+
+# Sync labels whenever an issue is opened
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+    name: Sync repository labels
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Financial-Times/origami-labels@master
