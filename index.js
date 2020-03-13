@@ -6,12 +6,15 @@ const labels = require('./labels');
 
 void async function () {
 	try {
-		const diff = await githubLabelSync({
+		await githubLabelSync({
 			accessToken: core.getInput('github-token'),
 			repo: process.env.GITHUB_REPOSITORY,
-			labels
+			labels,
+			log: {
+				info: core.info,
+				warn: core.warning
+			}
 		});
-		console.log(diff);
 	} catch (error) {
 		core.setFailed(error.message);
 	}
