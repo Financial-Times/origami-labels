@@ -1,0 +1,5 @@
+name: 'origami-labels'
+description: 'Sync a repo's issue labels with the standard Origami set'
+runs:
+  using: 'node12'
+  main: 'index.js'

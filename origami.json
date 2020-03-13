@@ -1,0 +1,12 @@
+{
+	"description": "GitHub action to sync a repo's issue labels with the standard Origami set",
+	"origamiType": null,
+	"origamiVersion": 1,
+	"keywords": [],
+	"support": "https://github.com/Financial-Times/origami-labels/issues",
+	"supportStatus": "experimental",
+	"supportContact": {
+		"email": "origami.support@ft.com",
+		"slack": "financialtimes/origami-support"
+	}
+}
