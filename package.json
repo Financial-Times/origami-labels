@@ -15,7 +15,10 @@
     "node": ">=12",
     "npm": ">=6.9.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "github-label-sync": "^1.4.2"
+  },
   "devDependencies": {},
   "main": "./index.js",
   "scripts": {}
