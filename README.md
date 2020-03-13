@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Sync repository labels
     steps:
-      - uses: Financial-Times/origami-labels@v1
+      - uses: Financial-Times/origami-labels@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
