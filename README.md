@@ -26,6 +26,12 @@ jobs:
 
 :warning: Whenever an issue is opened, the workflow will execute. This overrides all labels in the repository and may result in loss of data if it's run on a repo that isn't owned by Origami.
 
+You can do this by running the following command from a repo:
+
+```bash
+mkdir -p .github/workflows && curl https://raw.githubusercontent.com/Financial-Times/origami-labels/master/.github/workflows/sync-repo-labels.yml --output .github/workflows/sync-repo-labels.yml
+```
+
 
 ## Labels
 
