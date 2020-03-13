@@ -13,11 +13,7 @@ To use this action, create the following file in your GitHub repo:
 ```
 
 ```yml
-# Sync labels whenever an issue is opened
-on:
-  issues:
-    types: [opened]
-
+on: [issues, pull_request]
 jobs:
   sync-labels:
     runs-on: ubuntu-latest
