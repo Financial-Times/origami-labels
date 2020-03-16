@@ -11,7 +11,8 @@ const colors = {
 	sky: 'cce6ff',
 	slate: '262a33',
 	teal: '0d7680',
-	velvet: '593380'
+	velvet: '593380',
+	wasabi: '96cc28'
 };
 
 // Types of Origami project
@@ -103,6 +104,14 @@ module.exports = [
 		]
 	},
 	{
+		name: 'help wanted',
+		description: `We'd appreciate some help with this one`,
+		color: colors.wasabi,
+		aliases: [
+			'status: help wanted'
+		]
+	},
+	{
 		name: 'maintenance',
 		description: `Technical tasks that might make things better`,
 		color: colors.lemon,
@@ -117,6 +126,12 @@ module.exports = [
 		name: 'proposal',
 		description: `A proposed change which requires approval or discussion`,
 		color: colors.slate,
+		aliases: []
+	},
+	{
+		name: 'released',
+		description: `This work has been released and is now live`,
+		color: colors.black20,
 		aliases: []
 	},
 	{
