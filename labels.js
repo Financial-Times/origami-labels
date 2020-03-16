@@ -59,6 +59,12 @@ module.exports = [
 		]
 	},
 	{
+		name: 'dependencies',
+		description: `This is maintenance work relating to dependency bumps`,
+		color: colors.lemon,
+		aliases: []
+	},
+	{
 		name: 'discussion',
 		description: `General discussion including support questions`,
 		color: colors.candy,
@@ -105,7 +111,7 @@ module.exports = [
 	},
 	{
 		name: 'help wanted',
-		description: `We'd appreciate some help with this one`,
+		description: `We'd appreciate some help with this`,
 		color: colors.wasabi,
 		aliases: [
 			'status: help wanted'
@@ -129,9 +135,9 @@ module.exports = [
 		aliases: []
 	},
 	{
-		name: 'released',
-		description: `This work has been released and is now live`,
-		color: colors.black20,
+		name: 'security',
+		description: `This includes a security patch`,
+		color: colors.crimson,
 		aliases: []
 	},
 	{
