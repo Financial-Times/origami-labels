@@ -162,19 +162,19 @@ module.exports = [
 
 	// Add in continuous delivery labels
 	{
-		name: 'major',
+		name: 'release:major',
 		description: `Add to a PR to trigger a MAJOR version bump when merged`,
 		color: colors.claret,
 		aliases: []
 	},
 	{
-		name: 'minor',
+		name: 'release:minor',
 		description: `Add to a PR to trigger a MINOR version bump when merged`,
 		color: colors.jade,
 		aliases: []
 	},
 	{
-		name: 'patch',
+		name: 'release:patch',
 		description: `Add to a PR to trigger a PATCH version bump when merged`,
 		color: colors.crimson,
 		aliases: []
