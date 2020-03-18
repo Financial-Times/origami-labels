@@ -70,9 +70,9 @@ These labels are used to automate releases.
 
 Label|Description|Color|Example
 -----|-----|-----|-----
-major|Add to a PR to trigger a MAJOR version bump when merged|`#990F3D` (claret)|<img width="52" alt="label-major" src="https://user-images.githubusercontent.com/138944/76637877-6af6e100-6543-11ea-9344-27c71860030b.png">
-minor|Add to a PR to trigger a MINOR version bump when merged|`#00994D` (jade)|<img width="53" alt="label-minor" src="https://user-images.githubusercontent.com/138944/76637881-6c280e00-6543-11ea-811f-3cca4bc63cf9.png">
-patch|Add to a PR to trigger a PATCH version bump when merged|`#CC0000` (crimson)|<img width="53" alt="label-patch" src="https://user-images.githubusercontent.com/138944/76637883-6cc0a480-6543-11ea-8fea-11012d88a2b7.png">
+release:major|Add to a PR to trigger a MAJOR version bump when merged|`#990F3D` (claret)|<img width="52" alt="label-major" src="https://user-images.githubusercontent.com/138944/76637877-6af6e100-6543-11ea-9344-27c71860030b.png">
+release:minor|Add to a PR to trigger a MINOR version bump when merged|`#00994D` (jade)|<img width="53" alt="label-minor" src="https://user-images.githubusercontent.com/138944/76637881-6c280e00-6543-11ea-811f-3cca4bc63cf9.png">
+release:patch|Add to a PR to trigger a PATCH version bump when merged|`#CC0000` (crimson)|<img width="53" alt="label-patch" src="https://user-images.githubusercontent.com/138944/76637883-6cc0a480-6543-11ea-8fea-11012d88a2b7.png">
 
 ### Changing a label name
 
