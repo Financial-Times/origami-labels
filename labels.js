@@ -8,6 +8,7 @@ const colors = {
 	crimson: 'cc0000',
 	jade: '00994d',
 	lemon: 'ffec1a',
+	oxford: '0f5499',
 	sky: 'cce6ff',
 	slate: '262a33',
 	teal: '0d7680',
@@ -127,6 +128,12 @@ module.exports = [
 			'test',
 			'type: maintenance'
 		]
+	},
+	{
+		name: 'okr',
+		description: `This issue or pull request helps us meet an OKR`,
+		color: colors.oxford,
+		aliases: []
 	},
 	{
 		name: 'proposal',

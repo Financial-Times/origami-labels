@@ -52,6 +52,7 @@ feature|New feature request|`#00994D` (jade)|<img width="62" alt="label-feature"
 good starter issue|Good for newcomers|`#0D7680` (teal)|<img width="132" alt="label-good-starter-issue" src="https://user-images.githubusercontent.com/138944/76612748-d9707a80-6514-11ea-8a98-5caafa1f6fc2.png">
 help wanted|We'd appreciate some help with this|`#96CC28` (wasabi)|<img width="94" alt="label-help-wanted" src="https://user-images.githubusercontent.com/138944/76747988-ef2eab80-6771-11ea-90f0-71ad15530cc9.png">
 maintenance|Technical tasks that might make things better|`#FFEC1A` (lemon)|<img width="99" alt="label-maintenance" src="https://user-images.githubusercontent.com/138944/76612752-d9707a80-6514-11ea-9af3-d747bc12696d.png">
+okr|This issue or pull request helps us meet an OKR|`#0f5499` (oxford)|<img width="36" alt="label-okr" src="https://user-images.githubusercontent.com/138944/78137047-89eae380-741c-11ea-9443-ff05e14223b4.png">
 proposal|A proposed change which requires approval or discussion|`#262a33` (slate)|<img width="72" alt="label-proposal" src="https://user-images.githubusercontent.com/138944/76612754-da091100-6514-11ea-96b9-2602d529ea4f.png">
 security|This includes a security patch|`#CC0000` (crimson)|<img width="68" alt="label-security" src="https://user-images.githubusercontent.com/138944/76756796-50f51280-677e-11ea-9cc9-e790ecf8f22a.png">
 wontfix|This will not be worked on|`#CCC1B7` (black-20)|<img width="63" alt="label-wontfix" src="https://user-images.githubusercontent.com/138944/76612756-daa1a780-6514-11ea-8091-0509d9e94cac.png">
