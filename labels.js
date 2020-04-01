@@ -9,6 +9,7 @@ const colors = {
 	jade: '00994d',
 	lemon: 'ffec1a',
 	oxford: '0f5499',
+	mandarinWhite60: 'ffb885',
 	sky: 'cce6ff',
 	slate: '262a33',
 	teal: '0d7680',
@@ -117,6 +118,12 @@ module.exports = [
 		aliases: [
 			'status: help wanted'
 		]
+	},
+	{
+		name: `current`,
+		description: `Used to mark an issue as planned for Origami's current six-week cycle`,
+		color: colors.mandarinWhite60,
+		aliases: []
 	},
 	{
 		name: 'maintenance',

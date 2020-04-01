@@ -44,6 +44,7 @@ Label|Description|Color|Example
 blocked|Work blocked by something else|`#CC0000` (crimson)|<img width="67" alt="label-blocked" src="https://user-images.githubusercontent.com/138944/76612724-c8c00480-6514-11ea-9dee-5e2344d31864.png">
 breaking|Will require a major version bump|`#990F3D` (claret)|<img width="72" alt="label-breaking" src="https://user-images.githubusercontent.com/138944/76612740-d7a6b700-6514-11ea-9cb2-ecccfa30dc6b.png">
 bug|Something isn't working|`#CC0000` (crimson)|<img width="41" alt="label-bug" src="https://user-images.githubusercontent.com/138944/76612741-d7a6b700-6514-11ea-885a-567d110b9e84.png">
+current|Used to mark an issue as planned for Origami's current six-week cycle|`#FFB885` (mandarin 60% on white)|<img width="62" alt="label-current" src="https://user-images.githubusercontent.com/138944/78148389-b9095100-742c-11ea-9ae7-32571eb0a01b.png">
 dependencies|This is maintenance work relating to dependency bumps|`#FFEC1A` (lemon)|<img width="106" alt="label-dependencies" src="https://user-images.githubusercontent.com/138944/76756794-4fc3e580-677e-11ea-9364-c16c3231e3e4.png">
 discussion|General discussion including support questions|`#FF7FAA` (candy)|<img width="84" alt="label-discussion" src="https://user-images.githubusercontent.com/138944/76612742-d83f4d80-6514-11ea-9a2e-1d4b3b3eec8d.png">
 documentation|Improvements or additions to documentation|`#CCE6FF` (sky)|<img width="113" alt="label-documentation" src="https://user-images.githubusercontent.com/138944/76612743-d83f4d80-6514-11ea-8d29-cb9ef62751cf.png">
