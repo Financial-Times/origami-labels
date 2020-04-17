@@ -14,6 +14,7 @@ const colors = {
 	slate: '262a33',
 	teal: '0d7680',
 	velvet: '593380',
+	['velvet-paper-50']: 'ac92b3',
 	wasabi: '96cc28'
 };
 
@@ -146,6 +147,12 @@ module.exports = [
 		name: 'proposal',
 		description: `A proposed change which requires approval or discussion`,
 		color: colors.slate,
+		aliases: []
+	},
+	{
+		name: 'pattern',
+		description: `A new pattern which impacts multiple components.`,
+		color: colors['velvet-paper-50'],
 		aliases: []
 	},
 	{
