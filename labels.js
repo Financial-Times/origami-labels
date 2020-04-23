@@ -9,6 +9,7 @@ const colors = {
 	jade: '00994d',
 	lemon: 'ffec1a',
 	oxford: '0f5499',
+	oxfordWhite50: '87aacc',
 	mandarinWhite40: 'ffcfad',
 	mandarinWhite60: 'ffb885',
 	sky: 'cce6ff',
@@ -176,6 +177,12 @@ module.exports = [
 			'status: wontfix',
 			'wont-fix'
 		]
+	},
+	{
+		name: 'percy',
+		description: `This will tell the percy github action to run`,
+		color: colors.oxfordWhite50,
+		aliases: []
 	},
 
 	// Add in Origami type labels
