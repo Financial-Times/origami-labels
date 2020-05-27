@@ -16,8 +16,8 @@
     "npm": ">=6.9.0"
   },
   "dependencies": {
-    "@actions/core": "^1.2.3",
-    "github-label-sync": "^1.4.2"
+    "@actions/core": "^1.2.4",
+    "github-label-sync": "^1.6.0"
   },
   "devDependencies": {},
   "main": "./index.js",
