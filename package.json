@@ -16,7 +16,7 @@
     "npm": ">=6.9.0"
   },
   "dependencies": {
-    "@actions/core": "^1.2.3",
+    "@actions/core": "^1.2.4",
     "github-label-sync": "^1.6.0"
   },
   "devDependencies": {},
