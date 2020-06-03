@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "github-label-sync": "^1.6.0"
+    "github-label-sync": "^2.0.0"
   },
   "devDependencies": {},
   "main": "./index.js",
