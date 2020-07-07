@@ -211,7 +211,7 @@ module.exports = [
 	{
 		name: 'release:patch',
 		description: `Add to a PR to trigger a PATCH version bump when merged`,
-		color: colors.crimson,
+		color: colors.sky,
 		aliases: []
 	}
 
