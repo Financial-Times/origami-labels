@@ -129,10 +129,10 @@ module.exports = [
 		aliases: []
 	},
 	{
-		name: `pending`,
+		name: `next`,
 		description: `Used to mark an issue to discuss in Origami's next six-week planning session`,
 		color: colors.mandarinWhite40,
-		aliases: []
+		aliases: ['pending']
 	},
 	{
 		name: 'maintenance',
