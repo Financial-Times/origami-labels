@@ -2,7 +2,7 @@
 
 // Shared colour values
 const colors = {
-	black '000000',
+	black: '000000',
 	black20: 'ccc1b7',
 	candy: 'ff7faa',
 	claret: '990f3d',
