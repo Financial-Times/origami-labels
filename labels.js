@@ -2,6 +2,7 @@
 
 // Shared colour values
 const colors = {
+	black '000000',
 	black20: 'ccc1b7',
 	candy: 'ff7faa',
 	claret: '990f3d',
@@ -23,7 +24,7 @@ const colors = {
 // Types of Origami project
 const origamiTypes = [
 	'cli',
-	'component', // Yes, I know it's not a type... yet
+	'component',
 	'config',
 	'example',
 	'imageset',
@@ -100,6 +101,15 @@ module.exports = [
 		aliases: [
 			'enhancement',
 			'type: enhancement'
+		]
+	},
+	{
+		name: 'accessibility',
+		description: `An accessibility issue`,
+		color: colors.black,
+		aliases: [
+			'a11y',
+			'access'
 		]
 	},
 	{
