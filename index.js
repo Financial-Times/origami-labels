@@ -7,6 +7,7 @@ const labels = require('./labels');
 void async function () {
 	try {
 		await githubLabelSync({
+			allowAddedLabels: true,
 			accessToken: core.getInput('github-token'),
 			repo: process.env.GITHUB_REPOSITORY,
 			labels,
