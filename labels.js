@@ -223,6 +223,12 @@ module.exports = [
 		description: `Add to a PR to trigger a PATCH version bump when merged`,
 		color: colors.sky,
 		aliases: []
+	},
+	{
+		name: 'release:beta',
+		description: `Add to a PR to trigger a PRERELEASE version bump when merged`,
+		color: colors.candy,
+		aliases: []
 	}
 
 ];
